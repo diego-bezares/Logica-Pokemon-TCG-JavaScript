@@ -28,7 +28,9 @@ public class CartaEnJuego_DiegoBezares_218606334 {
     public int getDanoAcumulado() { return danoAcumulado; }
     public void setDanoAcumulado(int danoAcumulado) { this.danoAcumulado = danoAcumulado; }
     public String getEstado() { return estado; }
+    public void setCartaBase(CartaPokemon_DiegoBezares_218606334 cartaBase) { this.cartaBase = cartaBase; }
     public void setEstado(String estado) { this.estado = estado; }
+    public void resetTurnosEnJuego() { this.turnosEnJuego = 0; }
     public int getTurnosEnJuego() { return turnosEnJuego; }
     public void incrementarTurno() { this.turnosEnJuego++; }
     public List<CartaEnergia_DiegoBezares_218606334> getEnergiasUnidas() { return energiasUnidas; }
